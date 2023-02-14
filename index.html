@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>MKarWash</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 300px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carro</td>
+                <td>$100</td>
+            </tr>
+            </tr>
+            <tr>
+                <td>Camioneta</td>
+                <td>$150</td>
+            </tr>
+            </tr>
+            <tr>
+                <td>Camion</td>
+                <td>$300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>$550</td>
+        </tfoot>
+    </table>
+
+    <!-- Lista no ordenada -->
+    <ul>
+        <li>Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+    </ul>
+<!-- lista ordenada -->
+    <ol>
+        <li value="80">Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-roman;">sub elemento1</li>
+                <li style="list-style-type:lower-roman; ">sub elemento2</li>
+                <li style="list-style-type:lower-roman; ">sub elemento3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+        <form action="/formulario" method="post">
+        <!--El type es para indicar el tipo de label que quieres, 
+            puede ser psw, email, boton, boton de radio, checkbox, choose file  -->
+        <label for="Nombre"> Nombre</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Ej: Miguel Angel" />
+        <br>
+        <!-- Value se usa para darle valores por defecto a espacios -->
+        <label for="Nombre"> Apellido</label>
+        <input type="text" id="Apellido" name="Apellido" placeholder="Ej: Gutierrez" />
+        <br>
+        <label for="comentario"> Comentario </label>
+        <br>
+        <textarea cols="30" rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario"></textarea>
+        <br>
+        <button type="button"> boton</button>
+        <button type="button">tipo reset</button>
+        <button type="button">tipo submit</button>
+    </form>
+    <h1> Memes de calidad</h1>
+    <p> Aprendiendo a porgramar en HTML Y Comandos de GIT! :)</p>
+    <P> Separando linea sen diferentes parrafos </P>
+    <hr>
+    <h2> Estos son los memes del dia   </h2>
+    
+    <!-- ESTE TEXTO ES UN COMENTARIO Y NO VA A APARECER
+    EN EL EXPLORADOR -->
+
+    <P> si quieres buscar mas <span style ="color: blue"> puedes ir al link de abajo </span> 
+        ahi puedes encontrar cualquier cosa <br>
+        saludos
+    </P>
+    
+    <!-- Agregar Target = "_blank" para abrir la pestaña de google en otra pestaña-->
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <br>
+
+    <!-- height y widht son para las dimensiones de una imagen -->
+    <img src="img/coca.jpg" height="200" />
+    <form>
+        <input />
+    </form>
+</body>
+</html>
